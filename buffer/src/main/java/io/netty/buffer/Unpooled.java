@@ -70,6 +70,7 @@ import java.util.Arrays;
  * provided and their name is all {@code copiedBuffer()}.  It is also convenient
  * to use this operation to merge multiple buffers into one buffer.
  */
+// 不相容性
 public final class Unpooled {
 
     private static final ByteBufAllocator ALLOC = UnpooledByteBufAllocator.DEFAULT;
