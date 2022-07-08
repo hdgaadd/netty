@@ -32,6 +32,7 @@ import io.netty.handler.ssl.util.SelfSignedCertificate;
 /**
  * Discards any incoming data.
  */
+// find an outlet to read
 public final class DiscardServer {
 
     static final boolean SSL = System.getProperty("ssl") != null;
